@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workouts",
+  "info": {
+    "singularName": "workout",
+    "pluralName": "workouts",
+    "displayName": "Workout"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userId": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "exercises": {
+      "type": "component",
+      "component": "workout.excercise",
+      "repeatable": true
+    }
+  }
+}

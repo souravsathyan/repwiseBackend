@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_workout_sets",
+  "info": {
+    "displayName": "sets"
+  },
+  "options": {},
+  "attributes": {
+    "reps": {
+      "type": "integer"
+    },
+    "weight": {
+      "type": "decimal"
+    },
+    "weightUnit": {
+      "type": "enumeration",
+      "enum": [
+        "kg",
+        "lb"
+      ]
+    }
+  },
+  "config": {}
+}

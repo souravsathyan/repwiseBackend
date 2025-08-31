@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_workout_excercises",
+  "info": {
+    "displayName": "Excercise"
+  },
+  "options": {},
+  "attributes": {
+    "exercise": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::exercise.exercise"
+    },
+    "sets": {
+      "type": "component",
+      "component": "workout.sets",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
